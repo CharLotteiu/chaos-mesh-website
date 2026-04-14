@@ -61,7 +61,7 @@ bash migrate.sh -c
 
 ## 第 3 步：升级 Chaos Mesh
 
-由于 2.0 的改动较大，推荐在卸载 1.x 后重新进行安装。具体安装步骤，请参考[使用 Helm 安装（生产推荐）](production-installation-using-helm.md)。
+由于 2.0 的改动较大，推荐在卸载 1.x 后重新进行安装。具体安装步骤，请参考[使用 Helm 安装（生产推荐）](production-installation-using-helm.mdx)。
 
 ## 第 4 步：导入实验
 

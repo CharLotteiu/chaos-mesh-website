@@ -61,7 +61,7 @@ You can see that CRD is deleted and re-added.
 
 ## Step 3: Upgrade Chaos Mesh
 
-Because Chaos Mesh 2.0 contains many changes made from 1.x, it is recommended to uninstall 1.x first and then install 2.0. For specific installation steps, refer to [Install using Helm (production environment recommended)](production-installation-using-helm.md).
+Because Chaos Mesh 2.0 contains many changes made from 1.x, it is recommended to uninstall 1.x first and then install 2.0. For specific installation steps, refer to [Install using Helm (production environment recommended)](production-installation-using-helm.mdx).
 
 ## Step 4: Import an experiment
 

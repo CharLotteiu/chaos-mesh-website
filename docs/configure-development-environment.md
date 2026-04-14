@@ -61,7 +61,6 @@ After installing, follow the steps below to compile Chaos Mesh.
    :::
 
    After compiling, you should get the following container images:
-
    - `ghcr.io/chaos-mesh/chaos-dashboard:latest`
    - `ghcr.io/chaos-mesh/chaos-mesh:latest`
    - `ghcr.io/chaos-mesh/chaos-daemon:latest`
@@ -130,7 +129,7 @@ We could use [delve](https://github.com/go-delve/delve) with remote debugging to
 
    To ensure high availability, Chaos Mesh turns on `leader-election` feature by default and will create 3 replicas for `chaos-controller-manager`. We will use `controllerManager.leaderElection.enabled=false` to ensure that Chaos Mesh only creates 1 instance of `chaos-controller-manager` for easier debugging.
 
-   For more details, see [Install Chaos Mesh in different environments](production-installation-using-helm.md#step-4-install-chaos-mesh-in-different-environments).
+   For more details, see [Install Chaos Mesh in different environments](production-installation-using-helm.mdx#step-4-install-chaos-mesh-in-different-environments).
 
    :::
 
@@ -153,7 +152,6 @@ We could use [delve](https://github.com/go-delve/delve) with remote debugging to
    :::
 
    Then we could configure our favorite IDE to connect to the remote debugger, below are some examples:
-
    - For Goland, see [Attach to running Go processes with the debugger#Attach to a process on a remote machine](https://www.jetbrains.com/help/go/attach-to-running-go-processes-with-debugger.html#attach-to-a-process-on-a-remote-machine).
 
    - For VSCode, see [vscode-go - Debugging#Remote Debugging](https://github.com/golang/vscode-go/blob/master/docs/debugging.md#remote-debugging).

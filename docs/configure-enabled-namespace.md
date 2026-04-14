@@ -21,7 +21,7 @@ If you have not installed Chaos Mesh yet, you can enable this feature during ins
 
 :::note
 
-When you use Helm for installation, commands and parameters differ for different containers. Refer to [Install Chaos Mesh using Helm](production-installation-using-helm.md) for more information.
+When you use Helm for installation, commands and parameters differ for different containers. Refer to [Install Chaos Mesh using Helm](production-installation-using-helm.mdx) for more information.
 
 :::
 

@@ -1,5 +1,4 @@
 import Img from '@theme-original/MDXComponents/Img'
-import React from 'react'
 
 export default function ImgWrapper(props) {
   return (
@@ -11,9 +10,8 @@ export default function ImgWrapper(props) {
           color: 'var(--ifm-color-content-secondary)',
           fontSize: '0.875rem',
         }}
-      >
-        {props.alt}
-      </figcaption>
+        dangerouslySetInnerHTML={{ __html: props.alt }}
+      />
     </figure>
   )
 }

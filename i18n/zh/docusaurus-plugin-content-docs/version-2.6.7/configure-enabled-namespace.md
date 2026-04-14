@@ -21,7 +21,7 @@ helm install chaos-mesh chaos-mesh/chaos-mesh -n chaos-mesh --set controllerMana
 
 :::note
 
-当使用 Helm 进行安装时，不同容器运行时的命令和参数有所区别，详情请参阅[使用 Helm 安装](production-installation-using-helm.md)。
+当使用 Helm 进行安装时，不同容器运行时的命令和参数有所区别，详情请参阅[使用 Helm 安装](production-installation-using-helm.mdx)。
 
 :::
 
