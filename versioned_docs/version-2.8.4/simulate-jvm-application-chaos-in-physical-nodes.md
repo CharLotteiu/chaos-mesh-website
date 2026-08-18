@@ -560,14 +560,7 @@ The result is as follows:
 
 #### Parameters for increasing JVM stress
 
-| Parameter | Description | Value |
-| :-- | :-- | :-- | --- |
-| `action` | The action of the experiment | Set to "stress" |
-| `cpu-count` | The number of CPU cores used for increasing CPU stress | int type. You must configure one item between `cpu-count` and `mem-type`. |
-| `mem-type` | The type of OOM | string type. Currently, both 'stack' and 'heap' OOM types are supported. You must configure one item between `cpu-count` and `mem-type`. |
-| `pid` | None | The Java process ID where the fault is to be injected | int type, required |
-| `port` | None | The port number attached to the Java process agent. The fault is injected into the Java process through this port number. | int type. The default value is `9288`. |
-| `uid` | None | The experiment ID | string type. This item is not required to be configured, because Chaosd randomly creates one. |
+| Parameter | Description | Value | | :-- | :-- | :-- | --- | | `action` | The action of the experiment | Set to "stress" | | `cpu-count` | The number of CPU cores used for increasing CPU stress | int type. You must configure one item between `cpu-count` and `mem-type`. | | `mem-type` | The type of OOM | string type. Currently, both 'stack' and 'heap' OOM types are supported. You must configure one item between `cpu-count` and `mem-type`. | | `pid` | None | The Java process ID where the fault is to be injected | int type, required | | `port` | None | The port number attached to the Java process agent. The fault is injected into the Java process through this port number. | int type. The default value is `9288`. | | `uid` | None | The experiment ID | string type. This item is not required to be configured, because Chaosd randomly creates one. |
 
 #### Example for increasing JVM stress using the service mode
 
